@@ -5,6 +5,7 @@
   "proxy": "http://localhost:5000",
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "iframe-resizer": "^3.5.10",
     "react": "15.4.2",
     "react-ace": "^4.1.6",
     "react-bootstrap": "^0.30.7",

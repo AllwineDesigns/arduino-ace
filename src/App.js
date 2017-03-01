@@ -3,6 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { ButtonGroup, Button } from 'react-bootstrap';
 import io from 'socket.io-client';
+import 'iframe-resizer/js/iframeResizer.contentWindow';
 
 import AceEditor from 'react-ace';
 import 'brace/mode/c_cpp';
@@ -284,6 +285,7 @@ class App extends Component {
           value={this.state.value}
           editorProps={{$blockScrolling: true}}
           width="100%"
+          height= "300px"
           annotations={this.state.annotations}
           markers={this.state.markers}
           />
