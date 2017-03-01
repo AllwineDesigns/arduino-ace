@@ -285,7 +285,7 @@ class App extends Component {
           value={this.state.value}
           editorProps={{$blockScrolling: true}}
           width="100%"
-          height= "300px"
+          height="300px"
           annotations={this.state.annotations}
           markers={this.state.markers}
           />
